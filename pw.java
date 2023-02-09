@@ -5,3 +5,7 @@ public void mq
 {
 //code
 }
+public void m2()
+{
+//code
+}
