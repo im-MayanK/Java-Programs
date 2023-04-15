@@ -1,4 +1,4 @@
-import javax.lang.model.util.ElementScanner14;
+
 
 public class conditional {
     public static void main(String[] args) {
@@ -114,7 +114,7 @@ public class conditional {
 
 
 
-    
+
 
     // percentage and grade of 5 Subjects
     int a=70,b=80,c=80,d=90,e=95,f;
