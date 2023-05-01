@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class calc
+class calculator
 {
     // void add(int a, int b)
     // {
@@ -21,7 +21,7 @@ class calc
 public class Method1 {
     public static void main(String[] args) {
         Scanner scan =new Scanner(System.in);
-        calc c= new calc();
+        calculator c= new calculator();
       
         int a,b;
         System.out.println("Enter the value of firt no.");
