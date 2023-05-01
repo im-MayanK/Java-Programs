@@ -27,33 +27,48 @@ public class loop1 {
 // For each multiple of 5, print "Buzz" instead of the number.
 // For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
           
-    //String result;
-    //result =(i%3==0)?(i%5==0? "FizzBuzz": "Fizz"):(i%5==0? "Buzz": "");
+    //*******String result;
+    //******  trying with ternary operator result =(i%3==0)?(i%5==0? "FizzBuzz": "Fizz"):(i%5==0? "Buzz": "");
     // System.out.println(result);
 
-       for (int i=1;i<=100;i++)
-       {
-        if (i%3==0)
-        {
-            if (i%5==0)
-            {
-                System.out.println("FizzBuzz");
-            }
-                else
-                {
-                    System.out.println("Fizz");
-                } 
-            }
-            else if(i%5==0)
-            {
-                System.out.println("Buzz");
-            }
-            else{
-                System.out.println(i);
-            }
-            }
-            }
-        }
+    //    for (int i=1;i<=100;i++)
+    //    {
+    //     if (i%3==0)
+    //     {
+    //         if (i%5==0)
+    //         {
+    //             System.out.println("FizzBuzz");
+    //         }
+    //             else
+    //             {
+    //                 System.out.println("Fizz");
+    //             } 
+    //         }
+    //         else if(i%5==0)
+    //         {
+    //             System.out.println("Buzz");
+    //         }
+    //         else{
+    //             System.out.println(i);
+    //         }
+    //         }
+    
+
+    //  do while loop
+    //    int i=1;
+
+    // do 
+    // {
+    //     System.out.println(i);
+    //     i++;
+
+    // }while(i<=10);
+    //      }
+    //     }
+
+
+    
+
         
        
 
