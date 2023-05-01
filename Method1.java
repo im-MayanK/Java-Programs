@@ -1,18 +1,27 @@
 import java.util.Scanner;
-class calculator 
+class calc
 {
-    void add(int a, int b)
+    // void add(int a, int b)
+    // {
+    //     int c=a+b;
+    //     System.out.println(c);
+    // }
+    //without return statement
+    
+
+    int add(int a, int b)
     {
         int c=a+b;
-        System.out.println(c);
-    }
+        return c;
+    } // with return statment
+
 }
 
 
 public class Method1 {
     public static void main(String[] args) {
         Scanner scan =new Scanner(System.in);
-        calculator c= new calculator();
+        calc c= new calc();
       
         int a,b;
         System.out.println("Enter the value of firt no.");
@@ -20,7 +29,8 @@ public class Method1 {
          System.out.println("Enter the value of Second no.");
          b = scan.nextInt();
 
-        c.add(a,b);
+       int d= c.add(a,b);
+       System.out.println(d);
 
         
     }
