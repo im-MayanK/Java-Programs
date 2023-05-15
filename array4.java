@@ -1,5 +1,7 @@
 import java.util.Scanner;
 public class array4 {
+     // array practice questions
+     // taking input in array and reversed the array
     public static void main(String[] args) {
         Scanner scan=new Scanner(System.in);
         System.out.println("enter the no. of values you want in the arrays");
@@ -10,7 +12,7 @@ public class array4 {
             System.out.println("enter the " +a + " position value in the array ");
              num[a] =scan.nextInt();
         }
-        System.out.print("your values in the array are =");
+        System.out.println("your values in the array are =");
         for(int n :num) 
         {
             System.out.print(n);
@@ -27,8 +29,7 @@ public class array4 {
     }
 }
 
-    // array practice questions
-
+   
 
     
 
